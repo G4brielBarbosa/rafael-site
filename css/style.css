@@ -167,7 +167,7 @@ header {
 
 .inicio-section-right {
     flex: 1;
-    background-image: url('images/fundoDir.webp');
+    background-image: url('../images/fundoDir.webp');
     background-size: cover;
 }
 
