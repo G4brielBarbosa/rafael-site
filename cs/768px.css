@@ -1,0 +1,32 @@
+/* Adicione esta consulta de mídia ao seu arquivo CSS */
+@media (max-width: 768px) {
+    .inicio-seqtion-dir {
+        display: none;
+    }
+    .inicio-section{
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+    }
+
+    .inicio-seqtion-esq {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-section {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 150%;
+    }
+
+    .about-esq{
+        width: 100%;
+        align-items: center;
+    }
+    .about-dir{
+        width: 100%;
+        align-items: center;
+    }
+}
