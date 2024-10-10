@@ -166,8 +166,9 @@ header {
 }
 
 .inicio-section-right {
+    height: 80%;
     flex: 1;
-    background-image: url('../images/fundoDir.webp');
+    background-image: url('../images/fundoDir.jpg');
     background-size: cover;
 }
 
