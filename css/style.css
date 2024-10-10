@@ -187,14 +187,12 @@ header {
 .socios-section {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 80vh;
     padding: 2%;
-    gap: 20px; 
     text-align: center;
 }
 
 .socios-section h1 {
-    margin-bottom: 40px;
     font-size: 2.5em;
     font-family: 'Oswald';
     color: #333;
@@ -379,13 +377,14 @@ header {
         padding: 20px;
         flex-direction: column;
         align-items: center; 
+        height: 80vh;
     }
     .socios-section {
         padding: 20px; 
         display: flex;
         flex-direction: column; 
         align-items: center;
-
+        height: 70vh;
     }
     
     .socios {
@@ -405,7 +404,7 @@ header {
     }
     
     .socio-foto {
-        width: 100%; 
+        width: 70%; 
         overflow: hidden; 
     }
     
@@ -452,6 +451,10 @@ header {
 
     #familia{
         margin-top: 500px;
+    }
+
+    .atuacao-area{
+        height: 90vh;
     }
     
 }
