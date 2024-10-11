@@ -426,6 +426,35 @@ header {
     .socio-info p {
         font-size: 14px;
     }
+    .atuacao-area {
+        padding: 15px 2%; /* Reduz o padding em telas menores */
+        text-align: left; /* Alinha o texto à esquerda para melhorar a leitura */
+    }
+
+    .atuacao-area h1 {
+        font-size: 2em; /* Diminui o tamanho do título */
+    }
+
+    .atuacao-area p {
+        font-size: 1em; /* Reduz um pouco o tamanho do texto */
+        line-height: 1.5; /* Ajusta o espaçamento entre linhas para melhorar a leitura */
+    }
+
+    .atuacao-area ul {
+        max-width: 100%; /* Deixa o conteúdo ocupar mais espaço na tela */
+        padding-left: 15px; /* Adiciona um pouco de padding para dar margem à esquerda */
+    }
+
+    .atuacao-area ul li {
+        font-size: 1em; /* Diminui o tamanho da fonte dos itens da lista */
+        margin-bottom: 5px; /* Reduz o espaçamento entre os itens */
+        list-style-type: disc; /* Mantém os marcadores */
+    }
+
+    .cta-button {
+        font-size: 1em; /* Reduz o tamanho do botão */
+        padding: 10px 20px; /* Ajusta o padding do botão para ficar proporcional ao tamanho da tela */
+    }
     
   
     .nav-menu{
