@@ -452,10 +452,16 @@ header {
         margin-bottom: 5px; /* Reduz o espaçamento entre os itens */
         list-style-type: disc; /* Mantém os marcadores */
     }
+    .cta{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     .cta-button {
         font-size: 1em; /* Reduz o tamanho do botão */
         padding: 10px 20px; /* Ajusta o padding do botão para ficar proporcional ao tamanho da tela */
+        
     }
     
   
