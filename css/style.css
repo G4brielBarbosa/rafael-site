@@ -487,5 +487,22 @@ header {
     .atuacao-area{
         height: 90vh;
     }
+
+    .footer-container {
+        grid-template-columns: 1fr; /* Uma coluna para telas menores */
+        text-align: center;
+    }
+    
+    .site-footer h2 {
+        font-size: 1.5em; /* Diminuir o tamanho do título */
+    }
+
+    .site-footer p, .site-footer ul {
+        font-size: 0.9em; /* Diminuir o tamanho do parágrafo e da lista */
+    }
+
+    .footer-bottom {
+        font-size: 0.8em; /* Reduzir o texto da parte inferior */
+    }
     
 }
