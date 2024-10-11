@@ -433,11 +433,13 @@ header {
 
     .atuacao-area h1 {
         font-size: 2em; /* Diminui o tamanho do título */
+        text-align: center;
     }
 
     .atuacao-area p {
         font-size: 1em; /* Reduz um pouco o tamanho do texto */
         line-height: 1.5; /* Ajusta o espaçamento entre linhas para melhorar a leitura */
+        text-align: center;
     }
 
     .atuacao-area ul {
